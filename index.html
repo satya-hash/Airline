@@ -1,0 +1,95 @@
+<!doctypehtml>
+  <html lang=en>
+    <meta charset=UTF-8>
+    <meta content="IE=edge" http-equiv=X-UA-Compatible>
+    <meta content="width=device-width,initial-scale=1" name=viewport>
+    <title>AirIndia</title>
+    <link href=style.css rel=stylesheet>
+    <script src=https://kit.fontawesome.com/352d03c929.js crossorigin=anonymous></script>
+    <script src=https://cdn.tailwindcss.com></script>
+    <nav>
+      <section class=nav id=top>
+        <h1><span>A</span>irIndia</h1>
+        <ul>
+          <li><a href=#nav>Home</a>
+          <li><a href=#book>Booking</a>
+          <li><a href="">About</a>
+          <li><a href=#contact>Contact Us</a>
+        </ul><button id=log>Login</button>
+      </section>
+    </nav>
+    <section class=landing>
+      <div class=text>
+        <p class=q>Once you have tasted flight, you will forever walk the earth with your eyes turned skyward, for there you have been, and there you will always long to return.” - Leonardo Da Vinci.
+      </div>
+    </section>
+    <h1 id=book>Booking</h1>
+    <section class=booking>
+      <div class=form>
+        <form action="">
+          <h1>Flight Info</h1>
+          <div class=form-elements>
+            <table>
+              <tr>
+                <td><select name="">
+                    <option selected>Economy
+                    <option value=1>Bussiness
+                    <option value=2>First
+                  </select><br>
+                <td><label for=photo>
+                    <div class=pho style=height:175px;width:175px;margin-bottom:5px;border-radius:10px;background-color:#fff;display:flex;justify-content:center;align-items:center>
+                      <h2>Add Photo</h2>
+                    </div>
+                  </label> <input name="" id=photo type=file style=width:100%;height:100%>
+              <tr>
+                <td><label for=from>From :</label><br><input name=from id=from placeholder=Origin>
+                <td><label for=to>To :</label><br><input name="" id=to placeholder=Destination>
+              <tr>
+                <td><label for=start>Depature Date :</label><br><input name="" id=start type=date>
+                <td><label for=end>Return Date :</label><br><input name="" id=end type=date><br>
+              <tr>
+                <td><label for=add>Adults :</label><br><input name="" id=add type=number value=1>
+                <td><label for=child>Children :</label><br><input name="" id=child type=number value=0>
+            </table>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class=footer id=contact>
+      <h1 class=foot>contact us</h1>
+      <div class=icons>
+        <ul>
+          <li><a href="https://github.com/satya-hash?tab=repositories"><i class="fa-brands fa-github"></i></a>
+          <li><a href=https://www.facebook.com/login/><i class="fa-brands fa-facebook"></i></a>
+          <li><a href=https://www.instagram.com/><i class="fa-brands fa-instagram"></i></a>
+          <li><a href=https://www.google.com/><i class="fa-brands fa-google"></i></a>
+        </ul>
+      </div>
+      <section class=login>
+        <form action="">
+          <div class=person></div>
+          <table>
+            <tr>
+              <td><input placeholder=Email>
+            <tr>
+              <td><input name="" type=password placeholder=Password>
+            <tr>
+              <td><a href="">Forget password?</a>
+            <tr>
+              <td><input type=button value=Login>
+          </table>
+        </form>
+      </section>
+      <section class="body-font text-gray-600">
+        <div class="mx-auto container px-5 py-24">
+          <div class="mx-auto lg:w-3/4 text-center w-full xl:w-1/2"><svg class="inline-block h-8 mb-8 text-gray-400 w-8" fill=currentColor viewBox="0 0 975.036 975.036" xmlns=http://www.w3.org/2000/svg>
+              <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+            </svg>
+            <p class="leading-relaxed text-lg">An airline is a company that provides air transport services for traveling passengers and freight. Airlines use aircraft to supply these services and may form partnerships or alliances with other airlines for codeshare agreements, in which they both offer and operate the same flight</p><span class="inline-block bg-orange-500 h-1 mb-6 mt-8 rounded w-10"></span>
+            <h2 class="font-medium text-gray-900 text-sm title-font tracking-wider">SATYA SURENDRA</h2>
+            <p class=text-gray-500>3/4 Cse
+          </div>
+        </div>
+      </section>
+    </section><button id=myBtn onclick=topFunction() title="Go to top"><i class="fa-arrow-up fa-solid"></i></button>
+    <script src=./app.js></script>
